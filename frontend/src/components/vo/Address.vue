@@ -46,18 +46,6 @@
 </template>
 
 <script>
-    import Vue from 'vue'
-    import * as VueGoogleMaps from 'vue2-google-maps'
-
-    Vue.use(VueGoogleMaps, {
-        load: {
-            key: 'AIzaSyBsDzOopSQ-CIInjOETFnyQE_oTVytU2uk',
-            libraries: 'places', // This is required if you use the Autocomplete plugin
-            region: "KR",
-        },
-    })
-
-
     export default {
         name:"Address",
         props: {
